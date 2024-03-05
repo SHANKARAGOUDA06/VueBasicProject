@@ -1,10 +1,10 @@
 <template>
-    <div class="modal" v-if="show">
-      <div class="modal-content">
-        <slot></slot>
+      <div class="modal" v-if="show">
+        <div class="modal-content">
+          <slot></slot>
+        </div>
       </div>
-    </div>
-  </template>
+    </template>
   
   <script>
   
